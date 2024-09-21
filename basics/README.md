@@ -12,4 +12,4 @@ verify: file /tmp/my_first_directory/ output: /tmp/my_first_directory/: director
 9. 8-firstdelete deleting the betty file rm /tmp/my_first_directory/betty
 10. 9-firstdirdeletion deleting directory rmdir /tmp/my_first_directory
 11. 10-back change back to the last directory command: cd -, source ./10-back to check and you to make the dir you are trying to back from has 10-back file so the ./ can find it create it again.
-12. 11-lists since you can't use &&,;,|| to combine commands instead you listed them on same line ls -la . ls -la .. ls -la /boot 
+12. 11-lists since you can't use &&,;,|| to combine commands instead you used find . .. /boot -maxdepth 1 -ls

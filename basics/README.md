@@ -8,3 +8,4 @@
 6. 5-listfilesdigitonly list all file in long format numerically instead of names ls -lan
 7. 6-firstdirectory script that creates a directory named my_first_directory in the /tmp/ directory.mkdir /tmp/my_first_directory to
 verify: file /tmp/my_first_directory/ output: /tmp/my_first_directory/: directory
+8. 7-movethatfile how to move file first create it touch: /tmp/betty, move it mv /tmp/betty /tmp/my_first_directory/ verify: ls /tmp/my_first_directory/

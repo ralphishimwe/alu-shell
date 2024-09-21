@@ -10,4 +10,5 @@
 verify: file /tmp/my_first_directory/ output: /tmp/my_first_directory/: directory
 8. 7-movethatfile how to move file first create it touch: /tmp/betty, move it mv /tmp/betty /tmp/my_first_directory/ verify: ls /tmp/my_first_directory/
 9. 8-firstdelete deleting the betty file rm /tmp/my_first_directory/betty
-10. 9-firstdirdeletion deleting directory rmdir /tmp/my_first_directory 
+10. 9-firstdirdeletion deleting directory rmdir /tmp/my_first_directory
+11. 10-back change back to the last directory command: cd -, source ./10-back to check and you to make the dir you are trying to back from has 10-back file so the ./ can find it create it again. 

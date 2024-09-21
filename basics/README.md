@@ -5,3 +5,4 @@
 3. 2-bring_me_home this script is used to take to home directory  cd ~
 4. 3-listfiles used to list files in long format ls -l
 5. 4-listmorefiles list all files ls -la
+6. 5-listfilesdigitonly list all file in long format numerically instead of names ls -lan

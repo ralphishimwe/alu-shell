@@ -14,3 +14,4 @@ verify: file /tmp/my_first_directory/ output: /tmp/my_first_directory/: director
 11. 10-back change back to the last directory command: cd -, source ./10-back to check and you to make the dir you are trying to back from has 10-back file so the ./ can find it create it again.
 12. 11-lists since you can't use &&,;,|| to combine commands instead you used ls -la . .. /boot
 13. 12-file_type to open file: file /tmp/iamafile first create it touch /tmp/iamafile
+14. 13-symbolic_link creating a symbolic link ln -s /bin/ls __ls__

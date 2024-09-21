@@ -2,3 +2,4 @@
 ./0-current_working_directory
 2. 1-listit This file contains script for listing all files in working directory
 ./1-listit
+3. 2-bring_me_home this script is used to take to home directory 

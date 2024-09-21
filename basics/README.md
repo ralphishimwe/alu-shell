@@ -6,3 +6,5 @@
 4. 3-listfiles used to list files in long format ls -l
 5. 4-listmorefiles list all files ls -la
 6. 5-listfilesdigitonly list all file in long format numerically instead of names ls -lan
+7. 6-firstdirectory script that creates a directory named my_first_directory in the /tmp/ directory.mkdir /tmp/my_first_directory to
+verify: file /tmp/my_first_directory/ output: /tmp/my_first_directory/: directory

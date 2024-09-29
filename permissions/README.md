@@ -4,3 +4,4 @@
 4. script taht creates empty file touch hello
 5. scritp that gives execution permisio to hello 
 6. script that gives excutio perm to user(owner) group and gives read only for other user
+7. script that givevs permission to everyone

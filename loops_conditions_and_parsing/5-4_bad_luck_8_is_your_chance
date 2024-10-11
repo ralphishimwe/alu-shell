@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times using while loop
+
+var1="Best School"
+var2="Bad Luck"
+var3="Good Luck"
+i="0"
+while [ $i -lt 10 ]; do
+ if [ $i -eq 3 ]; then
+	 echo "$var2"
+ elif [ $i -eq 8 ];then
+         echo "$var3"
+ else 
+         echo "$var1"
+ fi
+ ((i++))
+done

@@ -1,4 +1,4 @@
-#!/usr/bin/env bah
+#!/usr/bin/env bash
 #displays the content of the file /etc/passwd
 
 while read -r  passwd; do

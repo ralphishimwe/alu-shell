@@ -2,8 +2,8 @@
 # This script is displaying "Best School" 10 times using while loop
 
 var1="Best School"
-var2="Bad Luck"
-var3="Good Luck"
+var2="bad luck"
+var3="good luck"
 i="0"
 while [ $i -lt 10 ]; do
  if [ $i -eq 3 ]; then

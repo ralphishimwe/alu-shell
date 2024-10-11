@@ -7,8 +7,8 @@
 var1="bad luck from china"
 var2="bad luck from japan"
 var3="bad luck from Italy"
-i="0"
-while [ $i -lt 20 ]; do
+i="1"
+while [ $i -lt 21 ]; do
 	case $i in 
 		4)
 			echo "$i" && echo "$var1"
